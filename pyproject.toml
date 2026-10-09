@@ -10,38 +10,31 @@ dependencies = [
     "langchain>=0.3.0",
     "langchain-core>=0.3.0",
     "langchain-community>=0.3.0",
-
     # LangGraph
     "langgraph>=1.0.0",
-
     # LLM provider integrations — student selects one via .env
     "langchain-groq>=0.2.0",
     "langchain-ollama>=0.2.0",
     "langchain-openai>=0.2.0",       # also covers LM Studio (OpenAI-compatible)
-
     # Vector store
     "chromadb>=0.5.0",
-
     # Embeddings
     "sentence-transformers>=3.0.0",  # local embeddings, no API key required
-
     # Document loading
     "pypdf>=4.0.0",                  # PDF ingestion
     "unstructured>=0.15.0",          # general document parsing
-
     # UI
     "streamlit>=1.38.0",
     "gradio>=4.40.0",
-
     # Configuration and environment
     "pydantic>=2.0.0",
     "pydantic-settings>=2.0.0",
     "python-dotenv>=1.0.0",
-
     # Utilities
     "tiktoken>=0.7.0",               # token counting for context window management
     "tenacity>=8.0.0",               # retry logic for API calls
     "loguru>=0.7.0",                 # structured logging
+    "torchvision>=0.29.1",
 ]
 
 [project.optional-dependencies]
